@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-heading{
+    transform: translate(-80px,0);
+
+}
+.nav-heading a{
+    color: #0802a3;
+    font-size: 32px;
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    text-align: start;
+}
+.nav-heading a:hover{
+    color: #0802a3;
+} 
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 999999999;
+}
+.nav-links{
+    transform: translate(50px,0);
+  
+
+}
+.nav-links a{
+    color: #121214;
+    font-size: 20px;
+    font-family:'Times New Roman';
+    font-weight: 400;
+}
+.nav-links a:hover{
+    color: #121214;
+    text-decoration: underline;
+    text-decoration-color: #121214;
+}
+.nav-buttons{
+    transform: translate(60px,0);
+}
+.nav-buttons1{
+    color: #0802a3;
+    font-size: 15px;
+    font-family:'Times New Roman';
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+    outline:1px solid #0802a3;
+    margin-right: 40px;
+}
+.nav-buttons2{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family:'Times New Roman';
+    font-weight: 700;
+    background-color: #0802a3;
+    outline:1px solid #0802a3;
+}
+.nav-buttons1:hover{
+    background-color: #0802a3;
+    color: rgb(255, 255, 255);
+}
+.nav-buttons2:hover{
+    background-color: rgb(255, 255, 255);
+    color: #0802a3;
+}
+.flex-item:nth-child(1){
+    padding-top: 100px;
+    padding-right: 210px;
+    padding-left: 120px;
+}
+.flex-item:nth-child(2){
+    padding-top: 50px;
+    padding-right: 100px;
+}
+.flex-item h1{
+    color: #121214;
+    font-family:'Times New Roman';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+.flex-item p{
+    color:  #464647;
+    font-family:'Times New Roman';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+    padding-right: 40px;
+}
+.mycard{
+    background-color: #0802a3;
+    padding: 20px;
+    width: 180px;  
+}
+.mycard img{
+    width: 100px;
+    display: inline-block;
+    margin-left: 10%;
+}
+.mycard p{
+    color: #e5e4ff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family:'Times New Roman';
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+.head{
+    font-size: 32px;
+    font-family:'Times New Roman';
+    font-weight: 700;
+    color: #121214;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.mycard:nth-child(2){
+    background-color: #ff7676;
+}
+.mycard:nth-child(3){
+    background-color: #ff4b91;
+}
+.mycard:nth-child(4){
+    background-color: #ffcd4b;
+}
+.card-and-text{
+    margin: 0 50px;
+}
